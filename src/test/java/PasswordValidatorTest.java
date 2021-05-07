@@ -68,4 +68,5 @@ public class PasswordValidatorTest {
     public void notAdminPasswordTest(){
         Assertions.assertFalse(passwordValidator.adminPassword("abcdef2*"));
     }
+
 }
